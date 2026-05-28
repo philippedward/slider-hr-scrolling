@@ -12,7 +12,7 @@ const N = wrappers.length;
 // Tailles initiales
 wrappers.forEach((wrapper, i) => {
   const card = wrapper.querySelector(".card");
-  const size = i === 0 ? SML : i === 1 ? MID : i === 2 ? BIG : 0;
+  const size = i === 0 ? SML : i === 1 ? MID : BIG;
 
   // Le wrapper ne gère QUE la largeur (pas la hauteur, le flex s'en charge)
   gsap.set(wrapper, { width: size });

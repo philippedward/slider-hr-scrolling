@@ -45,9 +45,11 @@ h2 {
 .horizontal-mask {
   padding: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 .slider-track {
+  width: 100%;
   overflow: hidden;
   height: 100vh;
 }
